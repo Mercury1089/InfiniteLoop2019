@@ -1,12 +1,12 @@
-package org.usfirst.frc.team1089.robot.commands;
+package frc.robot.commands;
 
 import edu.wpi.first.wpilibj.command.Command;
 import edu.wpi.first.wpilibj.command.CommandGroup;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.usfirst.frc.team1089.robot.Robot;
-import org.usfirst.frc.team1089.robot.subsystems.Claw;
-import org.usfirst.frc.team1089.util.Recallable;
+import frc.robot.Robot;
+import frc.robot.subsystems.Claw;
+import frc.util.Recallable;
 
 /**
  * Command group that calls both the AutoAlign command

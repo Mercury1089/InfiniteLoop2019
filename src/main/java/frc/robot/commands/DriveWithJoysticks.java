@@ -1,16 +1,16 @@
-package org.usfirst.frc.team1089.robot.commands;
+package frc.robot.commands;
 
 import com.ctre.phoenix.motorcontrol.NeutralMode;
 import edu.wpi.first.wpilibj.command.Command;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.usfirst.frc.team1089.robot.Robot;
-import org.usfirst.frc.team1089.robot.RobotMap.DS_USB;
-import org.usfirst.frc.team1089.robot.subsystems.DriveTrain;
-import org.usfirst.frc.team1089.robot.subsystems.Elevator;
-import org.usfirst.frc.team1089.util.DelayableLogger;
-import org.usfirst.frc.team1089.util.MercMath;
-import org.usfirst.frc.team1089.util.TalonDrive;
+import frc.robot.Robot;
+import frc.robot.RobotMap.DS_USB;
+import frc.robot.subsystems.DriveTrain;
+import frc.robot.subsystems.Elevator;
+import frc.util.DelayableLogger;
+import frc.util.MercMath;
+import frc.util.TalonDrive;
 
 import javax.xml.bind.Element;
 import java.security.interfaces.ECKey;

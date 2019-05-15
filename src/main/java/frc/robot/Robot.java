@@ -2,7 +2,7 @@ package frc.robot;
 
 import edu.wpi.first.networktables.*;
 import edu.wpi.first.wpilibj.DriverStation;
-import edu.wpi.first.wpilibj.IterativeRobot;
+import edu.wpi.first.wpilibj.TimedRobot;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -11,14 +11,14 @@ import frc.robot.RobotMap.CAN;
 import frc.robot.RobotMap.PWM;
 import frc.robot.auton.*;
 import frc.robot.auton.TaskConfig.*;
-import org.usfirst.frc.team1089.robot.subsystems.Claw;
-import org.usfirst.frc.team1089.robot.subsystems.DriveTrain;
-import org.usfirst.frc.team1089.robot.subsystems.Elevator;
-import org.usfirst.frc.team1089.robot.subsystems.PDP;
-import org.usfirst.frc.team1089.util.GameData;
-import org.usfirst.frc.team1089.util.config.DriveTrainSettings;
-import org.usfirst.frc.team1089.util.config.ManipulatorSettings;
-import org.usfirst.frc.team1089.util.config.SensorsSettings;
+import frc.robot.subsystems.Claw;
+import frc.robot.subsystems.DriveTrain;
+import frc.robot.subsystems.Elevator;
+import frc.robot.subsystems.PDP;
+import frc.util.GameData;
+import frc.util.config.DriveTrainSettings;
+import frc.util.config.ManipulatorSettings;
+import frc.util.config.SensorsSettings;
 import jaci.pathfinder.Waypoint;
 import jaci.pathfinder.Pathfinder;
 
@@ -31,7 +31,7 @@ import java.util.Map;
  * creating this project, you must also update the manifest file in the resource
  * directory.
  */
-public class Robot extends IterativeRobot {
+public class Robot extends TimedRobot {
 	private static Logger log = LogManager.getLogger(Robot.class);
 
 	// Subsystems

@@ -1,4 +1,4 @@
-package org.usfirst.frc.team1089.robot;
+package frc.robot;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

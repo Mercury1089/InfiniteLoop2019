@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.usfirst.frc.team1089.robot.commands;
+package frc.robot.commands;
 
 import com.ctre.phoenix.motion.MotionProfileStatus;
 import com.ctre.phoenix.motion.SetValueMotionProfile;
@@ -19,10 +19,10 @@ import jaci.pathfinder.modifiers.TankModifier;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.usfirst.frc.team1089.robot.Robot;
-import org.usfirst.frc.team1089.robot.subsystems.DriveTrain;
-import org.usfirst.frc.team1089.util.MercMath;
-import org.usfirst.frc.team1089.util.config.DriveTrainSettings;
+import frc.robot.Robot;
+import frc.robot.subsystems.DriveTrain;
+import frc.util.MercMath;
+import frc.util.config.DriveTrainSettings;
 
 import java.io.File;
 

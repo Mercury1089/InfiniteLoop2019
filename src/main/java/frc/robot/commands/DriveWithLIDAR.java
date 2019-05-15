@@ -1,8 +1,8 @@
-package org.usfirst.frc.team1089.robot.commands;
+package frc.robot.commands;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.usfirst.frc.team1089.robot.Robot;
+import frc.robot.Robot;
 
 /**
  * Drives to the LIDAR's target a specified distance away using the LIDAR's distance measurements.

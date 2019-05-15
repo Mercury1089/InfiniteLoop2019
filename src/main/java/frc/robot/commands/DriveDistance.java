@@ -1,4 +1,4 @@
-package org.usfirst.frc.team1089.robot.commands;
+package frc.robot.commands;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import edu.wpi.first.wpilibj.command.Command;
@@ -13,7 +13,7 @@ import frc.util.config.DriveTrainSettings;
 
 import java.util.concurrent.TimeUnit;
 
-import static org.usfirst.frc.team1089.robot.subsystems.DriveTrain.PRIMARY_PID_LOOP;
+import static frc.robot.subsystems.DriveTrain.PRIMARY_PID_LOOP;
 
 /**
  * Uses Talons and mag encoders to drive a setClawState distance.

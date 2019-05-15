@@ -1,4 +1,4 @@
-package org.usfirst.frc.team1089.robot.commands;
+package frc.robot.commands;
 
 import edu.wpi.first.wpilibj.command.PIDCommand;
 import edu.wpi.first.wpilibj.filters.LinearDigitalFilter;
@@ -6,11 +6,11 @@ import edu.wpi.first.wpilibj.interfaces.Gyro;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.usfirst.frc.team1089.robot.Robot;
-import org.usfirst.frc.team1089.util.DelayableLogger;
-import org.usfirst.frc.team1089.util.Recallable;
-import org.usfirst.frc.team1089.util.config.DriveTrainSettings;
-import org.usfirst.frc.team1089.util.config.SensorsSettings;
+import frc.robot.Robot;
+import frc.util.DelayableLogger;
+import frc.util.Recallable;
+import frc.util.config.DriveTrainSettings;
+import frc.util.config.SensorsSettings;
 
 import java.util.concurrent.TimeUnit;
 

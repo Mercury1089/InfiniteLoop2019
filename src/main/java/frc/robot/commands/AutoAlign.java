@@ -1,4 +1,4 @@
-package org.usfirst.frc.team1089.robot.commands;
+package frc.robot.commands;
 
 /**
  * Autonomous alignment command that uses {@link org.usfirst.frc.team1089.robot.sensors.PiVision PiVision}
