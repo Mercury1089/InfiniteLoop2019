@@ -1,16 +1,16 @@
-package org.usfirst.frc.team1089.robot;
+package frc.robot;
 
 import edu.wpi.first.wpilibj.GenericHID;
 import edu.wpi.first.wpilibj.Joystick;
 import edu.wpi.first.wpilibj.buttons.JoystickButton;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.usfirst.frc.team1089.robot.RobotMap.DS_USB;
-import org.usfirst.frc.team1089.robot.commands.*;
-import org.usfirst.frc.team1089.robot.subsystems.Claw;
-import org.usfirst.frc.team1089.robot.subsystems.Elevator;
-import org.usfirst.frc.team1089.robot.subsystems.Elevator.ElevatorPosition;
-import org.usfirst.frc.team1089.util.ShuffleDash;
+import frc.robot.RobotMap.DS_USB;
+import frc.robot.commands.*;
+import frc.robot.subsystems.Claw;
+import frc.robot.subsystems.Elevator;
+import frc.robot.subsystems.Elevator.ElevatorPosition;
+import frc.util.ShuffleDash;
 
 /**
  * This class is the glue that binds the controls on the physical operator

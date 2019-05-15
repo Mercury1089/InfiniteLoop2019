@@ -1,4 +1,4 @@
-package org.usfirst.frc.team1089.robot;
+package frc.robot;
 
 import edu.wpi.first.networktables.*;
 import edu.wpi.first.wpilibj.DriverStation;
@@ -6,11 +6,11 @@ import edu.wpi.first.wpilibj.IterativeRobot;
 import edu.wpi.first.wpilibj.command.Scheduler;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.usfirst.frc.team1089.robot.RobotMap.AIO;
-import org.usfirst.frc.team1089.robot.RobotMap.CAN;
-import org.usfirst.frc.team1089.robot.RobotMap.PWM;
-import org.usfirst.frc.team1089.robot.auton.*;
-import org.usfirst.frc.team1089.robot.auton.TaskConfig.*;
+import frc.robot.RobotMap.AIO;
+import frc.robot.RobotMap.CAN;
+import frc.robot.RobotMap.PWM;
+import frc.robot.auton.*;
+import frc.robot.auton.TaskConfig.*;
 import org.usfirst.frc.team1089.robot.subsystems.Claw;
 import org.usfirst.frc.team1089.robot.subsystems.DriveTrain;
 import org.usfirst.frc.team1089.robot.subsystems.Elevator;
