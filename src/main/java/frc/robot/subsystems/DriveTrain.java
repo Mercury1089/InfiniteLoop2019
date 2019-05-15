@@ -1,4 +1,4 @@
-package org.usfirst.frc.team1089.robot.subsystems;
+package frc.robot.subsystems;
 
 import com.ctre.phoenix.motorcontrol.ControlMode;
 import com.ctre.phoenix.motorcontrol.FeedbackDevice;
@@ -13,10 +13,10 @@ import edu.wpi.first.wpilibj.command.Subsystem;
 import edu.wpi.first.wpilibj.interfaces.Gyro;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.usfirst.frc.team1089.robot.commands.DriveWithJoysticks;
-import org.usfirst.frc.team1089.util.MercMath;
-import org.usfirst.frc.team1089.util.TalonDrive;
-import org.usfirst.frc.team1089.util.config.DriveTrainSettings;
+import frc.robot.commands.DriveWithJoysticks;
+import frc.util.MercMath;
+import frc.util.TalonDrive;
+import frc.util.config.DriveTrainSettings;
 
 /**
  * Subsystem that encapsulates the drive train.

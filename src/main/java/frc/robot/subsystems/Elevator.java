@@ -1,4 +1,4 @@
-package org.usfirst.frc.team1089.robot.subsystems;
+package frc.robot.subsystems;
 
 import com.ctre.phoenix.ParamEnum;
 import com.ctre.phoenix.motorcontrol.FeedbackDevice;
@@ -9,9 +9,9 @@ import edu.wpi.first.wpilibj.DigitalInput;
 import edu.wpi.first.wpilibj.command.Subsystem;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.usfirst.frc.team1089.robot.RobotMap;
-import org.usfirst.frc.team1089.robot.commands.ManualElevator;
-import org.usfirst.frc.team1089.util.config.ManipulatorSettings;
+import frc.robot.RobotMap;
+import frc.robot.commands.ManualElevator;
+import frc.util.config.ManipulatorSettings;
 
 /**
  * Subsystem encapsulating elevator mechanism to move claw up and down.

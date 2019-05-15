@@ -1,4 +1,4 @@
-package org.usfirst.frc.team1089.robot.subsystems;
+package frc.robot.subsystems;
 
 import com.ctre.phoenix.CANifier;
 import com.ctre.phoenix.motorcontrol.can.WPI_TalonSRX;
@@ -12,12 +12,12 @@ import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import frc.robot.Robot;
-import org.usfirst.frc.team1089.robot.commands.UseClaw;
-import org.usfirst.frc.team1089.robot.sensors.LIDAR;
-import org.usfirst.frc.team1089.robot.sensors.PixyI2C;
-import org.usfirst.frc.team1089.robot.sensors.Ultrasonic;
-import org.usfirst.frc.team1089.util.MercMath;
-import org.usfirst.frc.team1089.util.config.SensorsSettings;
+import frc.robot.commands.UseClaw;
+import frc.robot.sensors.LIDAR;
+import frc.robot.sensors.PixyI2C;
+import frc.robot.sensors.Ultrasonic;
+import frc.util.MercMath;
+import frc.util.config.SensorsSettings;
 
 /**
  * Subsystem that encapsulates actuators and sensors for

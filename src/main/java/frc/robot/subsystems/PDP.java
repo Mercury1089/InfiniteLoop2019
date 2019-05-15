@@ -1,10 +1,10 @@
-package org.usfirst.frc.team1089.robot.subsystems;
+package frc.robot.subsystems;
 
 import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.usfirst.frc.team1089.robot.commands.LogPDPInfo;
-import org.usfirst.frc.team1089.util.TalonDrive;
+import frc.robot.commands.LogPDPInfo;
+import frc.util.TalonDrive;
 
 import edu.wpi.first.wpilibj.PowerDistributionPanel;
 import edu.wpi.first.wpilibj.command.Subsystem;
